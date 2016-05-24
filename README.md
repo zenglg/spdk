@@ -37,11 +37,11 @@ To build SPDK, some dependencies must be installed.
 
 Fedora/CentOS:
 
-    sudo dnf install -y gcc libpciaccess-devel CUnit-devel libaio-devel
+    sudo dnf install -y gcc gcc-c++ libpciaccess-devel CUnit-devel libaio-devel
 
 Ubuntu/Debian:
 
-    sudo apt-get install -y gcc libpciaccess-dev make libcunit1-dev libaio-dev
+    sudo apt-get install -y gcc gcc-c++ libpciaccess-dev make libcunit1-dev libaio-dev
 
 FreeBSD:
 
